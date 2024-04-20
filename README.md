@@ -1,2 +1,3 @@
-# async-javascript
-Trainings for asynchronous javascript
+# Asynchronous JavaScript
+
+Trainings for asynchronous JavaScript.
