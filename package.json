@@ -8,7 +8,7 @@
     "clear": "rmdir /S /Q dist",
     "compile": "tsc -w",
     "prestart": "npm run clear && tsc",
-    "start": "npm run prestart && node dist/subjects/subject.js"
+    "start": "npm run prestart && node dist/pipes/exercisePipe.js"
   },
   "author": "",
   "license": "ISC",
