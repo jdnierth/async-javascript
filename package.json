@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "clear": "rmdir /S /Q dist",
     "compile": "tsc -w",
     "prestart": "tsc",
+    "combination": "node dist/combination/combine-streams.js",
     "start": "node dist/"
   },
   "author": "",
