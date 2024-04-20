@@ -8,7 +8,7 @@
     "clear": "rmdir /S /Q dist",
     "compile": "tsc -w",
     "prestart": "tsc",
-    "combination": "node dist/combination/combine-streams.js",
+    "combination": "node dist/asyncSubject/asyncSubject.js",
     "start": "node dist/"
   },
   "author": "",
