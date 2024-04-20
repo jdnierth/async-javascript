@@ -7,9 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "clear": "rmdir /S /Q dist",
     "compile": "tsc -w",
-    "prestart": "tsc",
-    "combination": "node dist/asyncSubject/asyncSubject.js",
-    "start": "node dist/"
+    "prestart": "npm run clear && tsc",
+    "start": "npm run prestart && node dist/subjects/subject.js"
   },
   "author": "",
   "license": "ISC",
