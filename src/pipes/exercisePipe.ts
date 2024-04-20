@@ -11,6 +11,6 @@ primes
     reduce((sum, acc) => sum + acc, 0)
   )
   .subscribe({
-    next: (result) => console.log("Result: ", result),
+    next: (result) => console.log("Sum: ", result),
     error: (error) => console.log("Error: ", error),
   });
